@@ -40,3 +40,5 @@ process.on('unhandledRejection', (err, promise) => {
   // Close Server & exit
   server.close(() => process.exit(1))
 })
+
+console.log('lolo is beautiful')
